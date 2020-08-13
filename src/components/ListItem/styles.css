@@ -1,0 +1,48 @@
+li {
+    margin: 10px;
+    padding: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+
+li a:hover {
+    opacity: 0.7;
+}
+
+li span {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+li button {
+    display: inline-block;
+    margin-top: 10px;
+
+    border: 0;
+    width: 15%;
+    height: 30px;
+    background: rgb(255, 255, 55);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+li button:hover {
+    background: rgb(255, 255, 105);
+}
+
+li button svg {
+    margin-right: 5px;
+}
+
